@@ -1,0 +1,78 @@
+*{
+    padding:0px 0px;
+    margin:0px;
+}
+body{
+    box-sizing:border-box;
+    background-color: rgb(74, 71, 71);
+}
+.main{
+    position:relative;
+    background-color:rgb(179, 213, 112);
+    width:500px;
+    height:300px;
+   top:50%;
+   left:50%;
+    transform:translate(-50%, 50%);
+    border:2px solid rgb(56, 60, 25);
+    border-radius:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main p{
+    position:relative;
+    box-sizing:border-box;
+    /* border:2px solid black; */
+    left:26%;
+    top:5%;
+    padding:9px;
+    color:black;
+    width:fit-content;
+    font-size:45px;
+}
+#longURL{
+    position:relative;
+    top:20%;
+    left:26%;
+    padding:10px;
+    border-radius:20px;
+}
+
+#shorten{
+    position:relative;
+    top:20%;
+    left:26%;
+    padding:6px;
+    border-radius:20px;
+    background-color: purple;
+    color:white;
+}
+
+#shortURL{
+    position:relative;
+    top:30%;
+    left:26%;
+    padding:10px;
+    border-radius:20px;
+}
+
+#copy{
+    position:relative;
+    top:33%;
+    left: 18%;
+    padding: 0px;
+    border-radius:12px;
+    background-color: purple;
+    color:white;
+}
+
+#shorten:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+
+#copy:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
