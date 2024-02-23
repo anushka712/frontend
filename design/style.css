@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+/* body{
+  margin:40px;
+} */
+.navigation{
+    /* border:2px solid red; */
+    /* margin-left:40px;  */
+    /* padding-left:60px;
+    padding-top:40px;
+    background-color: rgb(135, 223, 255); ; */
+}
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  
+  }
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+  }  */
+
+   .navigation{
+    background-color: rgb(135, 223, 255);
+    width:100%;
+    display:grid;
+  grid-template-columns:20% 60% 20%;
+  padding-top: 23px;;
+   }
+
+   .name{
+    text-align:center;
+   }
+
+   .url{
+       text-align: center;
+       padding:23px;
+   }
+
+   
+   .url span{
+    padding:12px;
+}
+
+.url span:hover{
+  cursor: pointer;
+}
+
+
+   .sign{
+    text-align: center;
+    padding:23px;
+   }
+
+
+#content{
+  /* border:2px solid red; */
+  display:grid;
+  grid-template-columns: repeat(2,auto);
+  grid-gap:2rem;
+  /* background-color: red; */
+  background-color: rgb(135, 223, 255);
+}
+
+
+.text{
+  background-color: rgb(135, 223, 255);
+}
+
+
+.photo{
+  background-image: url('Group 685.png');
+  background-position:51% -148%;
+background-repeat: no-repeat;
+}
+
+.sponsor{
+  height:200px;
+  border:2px solid blue;
+}
