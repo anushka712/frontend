@@ -107,6 +107,7 @@ background-repeat: no-repeat;
 
 .quo{
   /* border:2px solid red; */
+  margin-top: 51px;
   display:grid;
   grid-template-columns: repeat(2,auto);
   grid-gap:2rem;
@@ -122,4 +123,59 @@ background-repeat: no-repeat;
   padding: 51px;
   margin: 24px;
   border-radius: 24px;
+}
+
+.transactions{
+  /* border: 2px solid black; */
+  /* height: 400px; */
+  display:grid;
+  grid-template-columns: repeat(3,auto);
+  grid-gap:2rem;
+
+}
+.wallet{
+  text-align: center;
+  margin:76px;
+  height: 300px;
+  border: 2px solid white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box1{
+  /* border: 2px solid black; */
+  height: 14px;
+  width: 46px;
+  margin-left: 114px;
+  background-color: black;
+}
+.box2{
+  /* border: 2px solid black; */
+  margin-top: 4px;
+  height: 26px;
+  width: 55px;
+  margin-left: 114px;
+  background-color: rgba(255, 127, 92, 1);
+}
+
+.pay{
+  border: 2px solid black;
+   display:grid;
+   grid-template-columns: repeat(2,auto);
+   grid-gap:2rem;
+}
+
+.hand{
+  /* border: 2px solid yellow; */
+  background-color: rgba(219, 241, 250, 1);
+ width: 300px;
+ height: 400px;
+ /* background-image: url('image 56.png'); */
+}
+.boxes{
+  position: absolute;
+  margin-top: 0px;
+  height: 410px;
+  width:472px;
+  /* border: 2px solid red; */
+  background-color: rgba(219, 241, 250, 1);
 }
