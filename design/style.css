@@ -131,6 +131,7 @@ background-repeat: no-repeat;
   display:grid;
   grid-template-columns: repeat(3,auto);
   grid-gap:2rem;
+  margin-top: -24px;
 
 }
 .wallet{
@@ -158,7 +159,7 @@ background-repeat: no-repeat;
 }
 
 .pay{
-  border: 2px solid black;
+  /* border: 2px solid black; */
    display:grid;
    grid-template-columns: repeat(2,auto);
    grid-gap:2rem;
@@ -179,3 +180,131 @@ background-repeat: no-repeat;
   /* border: 2px solid red; */
   background-color: rgba(219, 241, 250, 1);
 }
+.money{
+  /* border: 2px solid; */
+  height: 400px;
+  position: abolute;
+  margin-top:450px;
+}
+.money2{
+  /* border: 2px solid; */
+  width: 400px;
+  height: 159px;
+  border-radius:20px;
+  background-color:rgba(196, 196, 196, 1) ;
+}
+
+.features{
+  /* border: 2px solid red; */
+  /* height: 1000px; */
+  background-color: rgba(201, 231, 242, 1);
+  padding-left: 80px;
+  padding-top: 35px;
+}
+
+.sister{
+  /* border: 2px solid yellow; */
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  grid-gap:2rem;
+  margin-top: 30px;
+  margin-bottom: 18px;
+  padding-right: 88px;
+}
+
+.sister1{
+  margin: 22px;
+ /* border:2px solid red; */
+ padding: 21px;
+ border-radius: 12px;
+ background-color: white;
+ margin-left: 2px;
+}
+
+.sister2{
+ /* border:2px solid green;
+ padding-right: 12px; */
+}
+
+.box3{
+  /* border: 2px solid black; */
+  height: 14px;
+  width: 46px;
+  /* margin-left: 114px; */
+  background-color: black;
+}
+.box4{
+  /* border: 2px solid black; */
+  margin-top: 4px;
+  height: 26px;
+  width: 55px;
+  /* margin-left: 114px; */
+  background-color: rgba(255, 127, 92, 1);
+}
+.lilsis{
+  /* border: 2px solid; */
+  padding: 25px;
+  margin: 12px;
+  border-radius: 12px;
+  background-color: white;
+  font-size: 12px;
+}
+
+.testimonials{
+  /* border: 2px solid yellow; */
+  padding-left: 90px;
+}
+
+.test{
+  display: flex;
+  /* border: 2px solid purple; */
+}
+
+.pic{
+  border: 2px solid gainsboro;
+  display: flex;
+  /* width: 37%; */
+  padding: 40px;
+  border-radius: 23px;
+}
+
+.users{
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  grid-gap:2rem;
+  /* border: 2px solid red; */
+ background-color: rgba(55, 52, 169, 1);
+ color: white;
+ height: 200px;
+ margin-top: 135px;
+}
+
+.user1{
+  /* border: 2px solid green; */
+ padding: 21px;
+ font-size: 20px;
+margin:24px;
+}
+.user2{
+  /* border: 2px solid green; */
+  padding: 10px;
+}
+.usertext{
+  font-weight: bold;
+   font-size:54px;
+}
+
+.blog{
+  padding-left: 80px;
+  display: flex;
+  margin-top: 124px;
+}
+
+.blog2{
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  column-gap:6px;
+  /* border: 2px solid red; */
+  padding-left: 60px;
+}
+
