@@ -302,7 +302,7 @@ margin:24px;
   grid-template-columns: repeat(4,auto);
   column-gap:6px;
   /* border: 2px solid red; */
-  padding-left: 60px;
+  padding-left: 80px;
 }
 
 .question{
