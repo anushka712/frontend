@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design the page</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
@@ -12,49 +13,58 @@
     
 </head>
 <body>
-    <div class="container">
-        <!-- <div class="navigation">
-            <ul>
-                <li style="float:left; font-weight: bold;"><a href="#">AR Shakir</a></li>
-            
-                <div class="links">
-                <li><a href="#">Product &#8595; </a></li>
-                <li><a href="#">Template &#8595;</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Pricing</a></li>
-            </div>
-               <li style="float:right; background-color:#2a2a6f; color:white;"><a href="#">Start Free</a></li>
-                <li style="float:right;"><a href="#">Sign In</a></li>
-              </ul>
-    </div> -->
 
     <div class="navigation">
-        <div class="name" "> <h2> AR SHAKIR </h2></div>
+        <div class="name" "> <h2> ABC Company </h2></div>
         <div class="url"">
-            <span>Product <span class="material-symbols-outlined" style="position: absolute; margin-top: -14px; margin-left: -16px;">
-                expand_more
-                </span></span>
-            <span>Template<span class="material-symbols-outlined" style="position: absolute; margin-top: -14px; margin-left: -16px;">
-                expand_more
-                </span></span>
-            <span>Blog</span>
-            <span>Pricing</span>
-       </div>
+           <div class="dropdown">  Product    <span class="material-symbols-outlined" style="position: absolute;  margin-top: -3px;
+            margin-left: -1px; padding-right: 12px;">
+            expand_more
+            </span>
+            <div class="dropcontent">
+                <p><a href="#">Product1</a></p>
+                <p><a href="#">Product1</a></p>
+                <p><a href="#">Product1</a></p>
+            </div>
+        </div>
+
+        <div class="dropdown" style="padding-left: 23px;"> <span id="name2" style="padding-left: 10px;">Template </span>  <span class="material-symbols-outlined" style="position: absolute; margin-top: -3px;
+            margin-left: -1px;">
+            expand_more
+            </span>
+            <div class="dropcontent">
+                <p><a href="#">Template1</a></p>
+                <p><a href="#">Template1</a></p>
+                <p><a href="#">Template</a></p>
+                
+            </div>
+        </div> 
+         
+        <a href="#blogs" style="padding-left: 43px;">Blogs</a>
+        <a href="#question">Questions</a>
+        <a href="#content">Content</a>
+
+    </div>
+
         <div class="sign" ;">
             <span>Sign In</span>
             <button style="color:white; background-color: #2a2a6f; padding:8px; margin-left: 38px;;">Start Free</button>
         </div>
-    </div>
+   
+         </div>
 
+    
     <section id="content">
     
     <div class="text" style="padding-left:60px; padding-top:50px; padding-bottom: 50px;">
         <h1 style="font-size:60px;">Managing freelance <br> payments has never <br> been easier </h1>
         <p>Yet bed any for travelling assistance indulgence <br> unpleasing. Not thoughts all exercise blessing.</p> <br> <br>
 
-        <button id="btn" style="padding:15px; border-radius:20px; background-color: #2a2a6f;color:white;"> Get Started</button>
-        <span style="color:white; background-color: green;  padding:12px; border-radius:50%; margin-left: 6px;"> &#9658 </span>
-        <span style="color:#2a2a6f;">See How it Works</span> <br>  <br> <br>
+        <button id="btn" style="padding:15px; border-radius:20px; background-color: #2a2a6f;"> <a href="https://www.upwork.com/ab/account-security/login?redir=%2Fnx%2Fcreate-profile%2Femployment" target="_blank" style="color:white; text-decoration: none;">Get Started</a> </button>
+
+
+        <span style="color:white; background-color: green;  padding:12px; border-radius:50%; margin-left: 6px;"> <a href="https://www.youtube.com/results?search_query=about+freelancing" target="_blank" style="color: white; text-decoration: none;"> &#9658</a> </span>
+        <span style="color:#2a2a6f;">  See How it Works</span> <br>  <br> <br>
 
         <span style="border:2px solid; padding:2px; background-color:#2a2a6f; color:white; border-radius: 50%;">&check; </span>
         <span style="color:gray;">Free Register</span>
@@ -69,7 +79,8 @@
         <button style= "position:absolute;  padding:20px; border-radius:50%; margin-left: -29px;  margin-top: 108px; background-color: black;"> <span style="color:white; font-size: 10px;" >&#10032;</span></button>
     </div>
 </section>
-</div>
+
+<!-- **************Sponsor Start**************** -->
 
 <div class="sponsor">
     <div class="spontext">
@@ -206,7 +217,7 @@
     <div class="sister1"">
         <div class="box3" ></div>
         <div class="box4" style="background-color: rgba(55, 52, 169, 1);"></div> 
-        <h1>Among sex are leave law <br> built now </h1>
+        <h1>Among say are leave law <br> built now </h1>
         <p>We so opinion friends me message as <br> delight. Whole front do of plate heard oh <br> ought, </p>
     </div>
 
@@ -276,6 +287,10 @@
 
 </div>
 
+<!-- ******************Blog start*************** -->
+
+  <div id="blogs">
+
 <div class="blog">
     <div class="intro2">  <h1 class="usertext"> Recent Blogs </h1>
      <p>BEST PRACTICES</p>
@@ -310,7 +325,9 @@
 
 </div>
 
-<div class="question">
+</div>
+
+<div id="question">
     
 <h1 class="usertext">Frequently  <br> asked question </h1>
 
@@ -363,6 +380,7 @@
 </div>
 
 </div>
+
 </div>
 
 <div class="better">
@@ -400,8 +418,10 @@
 
 <div class="newsletter">
 <h1>Join Our Newsletter</h1>
-<span class="shootmail" style="background-color: rgba(238, 238, 255, 1); color: gray;"> Your email address</span>
-<span class="shootmail" style=" background-color:rgba(55, 52, 169, 1);position: absolute;margin-top:-41px; margin-left: 180px; width: 100px;">Subscribe</span>
+
+<input type="email" class="shootmail" name="email" id="email" style="background-color: rgba(238, 238, 255, 1); border: none; color: gray;" placeholder="Your email address" >
+
+<span class="shootmail"  style=" background-color:rgba(55, 52, 169, 1);position: absolute;margin-top:-41px; margin-left: 180px; width: 100px;" onclick="alert('You have subscribed this page.')">Subscribe</span>
 <p>* Will send you weekly updates for your better <br> finance management</p>
 
 

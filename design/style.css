@@ -1,33 +1,10 @@
 *{
     box-sizing: border-box;
 }
-/* body{
-  margin:40px;
-} */
-.navigation{
-    /* border:2px solid red; */
-    /* margin-left:40px;  */
-    /* padding-left:60px;
-    padding-top:40px;
-    background-color: rgb(135, 223, 255); ; */
+html{
+scroll-behavior: smooth;
 }
-/* ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  li {
-    float: left;
-  
-  }
-  li a {
-    display: block;
-    color:black;
-    text-align: center;
-    padding: 4px;
-    text-decoration: none;
-  }  */
+
 
    .navigation{
     background-color: rgb(135, 223, 255);
@@ -35,32 +12,56 @@
     display:grid;
   grid-template-columns:20% 60% 20%;
   padding-top: 23px;
+  top:0px;
+  position:sticky;
    }
 
    .name{
     text-align:center;
+    padding: 23px;
    }
-
-   .url{
-       text-align: center;
-       padding:23px;
+   .dropdown a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
    }
-
-   
-   .url span{
-    padding:12px;
+.dropdown:hover .dropcontent{
+  display: block;
 }
+   .dropcontent{
+    display:none;
+    position: absolute;
+  }
+ 
+   .url a{
+       /* text-align: center; */
+       padding-left:30px;
+       flex-direction: row;
+       text-decoration: none;
+       color: black;
+   }
 
-.url span:hover{
+.url :hover{
   cursor: pointer;
+  text-decoration: underline solid rgb(56, 55, 55) ;
+}
+.url {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
 }
 
 
    .sign{
     text-align: center;
     padding:23px;
+    padding-top: 38px;
    }
 
+   
 
 #content{
   /* border:2px solid red; */
@@ -70,7 +71,18 @@
   /* background-color: red; */
   background-color: rgb(135, 223, 255);
 }
+/* 
+#dropcontent1{
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
 
+#dropcontent2{
+  color: black;
+  display: flex;
+  flex-direction: row;
+} */
 
 .text{
   background-color: rgb(135, 223, 255);
@@ -221,10 +233,6 @@ background-repeat: no-repeat;
  margin-left: 2px;
 }
 
-.sister2{
- /* border:2px solid green;
- padding-right: 12px; */
-}
 
 .box3{
   /* border: 2px solid black; */
@@ -305,7 +313,7 @@ margin:24px;
   padding-left: 80px;
 }
 
-.question{
+#question{
   /* border: 2px solid black; */
    margin-top: 103px;
    padding-left: 80px;
@@ -354,6 +362,9 @@ margin:24px;
   align-items: center; 
   justify-content: center;
 }
+.shootmail:hover{
+cursor: pointer;
+}
 
 .better{
   height:319px;
@@ -363,7 +374,7 @@ margin:24px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
 
 .foots{
