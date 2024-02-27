@@ -1,0 +1,1 @@
+// var a=prompt("Are you excited to visit the shopping website");
