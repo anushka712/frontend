@@ -17,6 +17,7 @@
     <div class="navigation">
         <div class="name" > <h2> ABC Company </h2></div>
         <div class="url">
+            <a href="#" style="margin-right: 20px;">Home</a>
            <div class="dropdown">  Product    <span class="material-symbols-outlined" style="position: absolute;  margin-top: -3px;
             margin-left: -1px; padding-right: 12px;">
             expand_more
@@ -42,18 +43,18 @@
          
         <a href="#blogs" style="padding-left: 43px;">Blogs</a>
         <a href="#question">Questions</a>
-        <a href="#content">Content</a>
 
     </div>
 
         <div class="sign">
-            <span>Sign In</span>
-            <button style="color:white; background-color: #2a2a6f; padding:8px; margin-left: 38px;;">Start Free</button>
+            <a href="#login">
+            <button class="btn" onclick="document.getElementById('login_main').style.display='block' ">Sign In</button> </a>
+            <button class="btn" style="margin-left: 38px;">Start Free</button>
         </div>
    
          </div>
 
-    
+
     <section id="content">
     
     <div class="text" style="padding-left:60px; padding-top:50px; padding-bottom: 50px;">
@@ -142,25 +143,25 @@
  <div class="profile" style=" padding-left: 69px;">
  
     <div class="boxes" style="box-sizing: border-box;">
-        <div class="michael" style="margin-left: 54px;margin-top: 29px;border-radius: 9px; height: 81px; width: 380px; padding-top: 4px;background-color:white;">
-            <span style="padding-left: 20px;"> <button style="padding: 20px; border-radius: 50%;"> image</button> </span> <span style="background-color: rgba(117, 112, 149, 1); border-radius: 9px;color: rgba(55, 52, 169, 1)">
-                +$28,9000 </span> <span  style=" position:absolute;     margin-top: 42px; margin-left: -66px;color: gray;">Received from Michael V</span>
+        <div class="michael" style="margin-left: 54px;margin-top: 29px;">
+            <span style="padding-left: 20px;"> <a href="#blogs"><img src="Ellipse 40.png" alt="" style="margin-top:9px;"></a> </span> <span class="michael_money">
+                +$28,9000 </span> <span class="michael_text">Received from Michael V</span>
         </div>
 
-        <div class="michael" style="border-radius: 9px; height: 81px; width: 380px; padding-top: 4px;    margin-left: 168px; margin-top: 19px;background-color:white;">
-            <span style="padding-left: 20px;"> <button style="padding: 20px; border-radius: 50%;"> image</button> </span> <span style="background: rgba(117, 112, 149, 1); border-radius: 9px;color: rgba(55, 52, 169, 1)">
-                +$28,9000 </span> <span  style=" position:absolute;     margin-top: 42px; margin-left: -66px;color: gray;">Received from Michael V</span>
+        <div class="michael" style=" margin-left: 168px; margin-top: 19px;">
+            <span style="padding-left: 20px;"><a href="#blogs"><img src="Ellipse 40 (1).png" alt="" style="margin-top:9px;"></a></span> <span  class="michael_money">
+                +$28,9000 </span><span class="michael_text">Received from Michael V</span>
         </div>
   
-        <div class="michael" style="border-radius: 9px; height: 81px; width: 380px; padding-top: 4px;     margin-left: 120px;
-        margin-top: 12px;background-color:white;">
-            <span style="padding-left: 20px;"> <button style="padding: 20px; border-radius: 50%;"> image</button> </span> <span style="border-radius: 9px; background-color: rgba(117, 112, 149, 1); color: rgba(55, 52, 169, 1)">
-                +$28,9000 </span> <span  style=" position:absolute;     margin-top: 42px; margin-left: -66px;color: gray;">Received from Michael V</span>
+        <div class="michael" style=" margin-left: 120px;
+        margin-top: 12px;">
+            <span style="padding-left: 20px;"><a href="#blogs"><img src="Ellipse 40 (2).png" alt="" style="margin-top:9px;"></a> </span> </span> <span  class="michael_money">
+                +$28,9000 </span> <span class="michael_text">Received from Michael V</span>
         </div>
 
-        <div class="michael" style="border-radius: 9px; height: 81px; width: 380px; padding-top: 4px;margin-left: 12px; margin-top: 12px;background-color:white;">
-            <span style="padding-left: 20px;"> <button style="padding: 20px; border-radius: 50%;"> image</button> </span> <span style="background-color: rgba(117, 112, 149, 1); border-radius: 9px;color: rgba(55, 52, 169, 1)">
-                +$28,9000 </span> <span  style=" position:absolute;     margin-top: 42px; margin-left: -66px; color: gray;">Received from Michael</span>
+        <div class="michael" style="margin-left: 12px; margin-top: 12px;">
+            <span style="padding-left: 20px;"> <a href="#blogs"><img src="Ellipse 40 (3).png" alt="" style="margin-top:9px;"></a> </span> </span> <span  class="michael_money">
+                +$28,9000 </span> <span  class="michael_text">Received from Michael V</span>
         </div>
         </div>
     
@@ -214,7 +215,7 @@
         <p>We so opinion friends me message as <br> delight. Whole front do of plate heard oh <br> ought, </p>
 </div>
 
-    <div class="sister1"">
+    <div class="sister1">
         <div class="box3" ></div>
         <div class="box4" style="background-color: rgba(55, 52, 169, 1);"></div> 
         <h1>Among say are leave law <br> built now </h1>
@@ -338,36 +339,19 @@
 <div class="addedques">
 
     <div class="question1">
-  <h3>The expanse windows adapted sir.wrong widen drawn.</h3>   <span class="material-symbols-outlined" id="addquestion">
-    add
-    </span>
-    <p>Offending belonging promotion provision an be oh consulted oureselves it. Blessing <br> welcomed ladyship she met humoured sir breeding her. </p>
+  <h3>The expanse windows adapted sir.wrong widen drawn.</h3> 
+    <p>Offending belonging promotion provision an be oh consulted oureselves it. Blessing <br> welcomed ladyship she met humoured sir breeding her. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae pariatur reprehenderit neque repudiandae perferendis a vero, nam magnam dolor debitis animi. Placeat, dicta corporis assumenda mollitia modi magnam blanditiis minima. </p>
 </div>
 
-<div class="question1" style="height: 50px; padding-top: 2px;">
-    <h3>The expanse windows adapted sir.wrong widen drawn.</h3>   <span class="material-symbols-outlined" id="addquestion">
-      add
-      </span>
+<div class="question1">
+    <h3>The expanse windows adapted sir.wrong widen drawn.</h3> 
+      <p>Offending belonging promotion provision an be oh consulted oureselves it. Blessing <br> welcomed ladyship she met humoured sir breeding her. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae pariatur reprehenderit neque repudiandae perferendis a vero, nam magnam dolor debitis animi. Placeat, dicta corporis assumenda mollitia modi magnam blanditiis minima. </p>
   </div>
   
-  <div class="question1" style="height: 50px; padding-top: 2px;">
-    <h3>The expanse windows adapted sir.wrong widen drawn.</h3>   <span class="material-symbols-outlined" id="addquestion">
-      add
-      </span>
+  <div class="question1">
+    <h3>The expanse windows adapted sir.wrong widen drawn.</h3> 
+      <p>Offending belonging promotion provision an be oh consulted oureselves it. Blessing <br> welcomed ladyship she met humoured sir breeding her. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae pariatur reprehenderit neque repudiandae perferendis a vero, nam magnam dolor debitis animi. Placeat, dicta corporis assumenda mollitia modi magnam blanditiis minima. </p>
   </div>
-
-  <div class="question1" style="height: 50px; padding-top: 2px;">
-    <h3>The expanse windows adapted sir.wrong widen drawn.</h3>   <span class="material-symbols-outlined" id="addquestion">
-      add
-      </span>
-  </div>
-
-  <div class="question1" style="height: 50px; padding-top: 2px;">
-    <h3>The expanse windows adapted sir.wrong widen drawn.</h3>   <span class="material-symbols-outlined" id="addquestion">
-      add
-      </span>
-  </div>
-
 </div>
 
 
@@ -388,6 +372,38 @@
 <div class="better">
     <h1 class="usertext" >Discover a better way to <br> manage spendings</h1>
     <div class="shootmail">Get Started Now</div>
+</div>
+
+<div id="login_main">
+<div id="login">
+    <button  id="close" onclick="document.getElementById('login_main').style.display='none' ">Close</button>
+
+
+    <form action="action.php" >
+        <h1>Sign UP</h1>
+      <p>  Please fill this form to enter into this website </p>
+
+      <label for="email">Email</label>  <br>
+        <input type="text" name="email" id="email" placeholder="Enter your email"> 
+
+        <label for="password">Password</label> <br>
+        <input type="password" name="psd" id="psd" placeholder="Enter your password"> 
+
+        <label for="repeat password">Retype Password</label> <br>
+        <input type="password" name="psd" id="psd" placeholder="Retype your password"> 
+
+       <label for="remember">
+        <input type="checkbox" name="" id="" checked="checked"> Remember Me
+       </label>
+
+       <p>Do you agree our <a href="">Terms & Policy</a> </p>
+
+       <button class="btn" style="width: 20%;">Login</button>
+       <button class="btn" style="width: 20%; margin-left: 12px;">Sign Up</button>
+
+    </form>
+  
+</div>
 </div>
 
 <div class="foots">
@@ -423,11 +439,33 @@
 
 <input type="email" class="shootmail" name="email" id="email" style="background-color: rgba(238, 238, 255, 1); border: none; color: gray;" placeholder="Your email address" >
 
-<span class="shootmail"  style=" background-color:rgba(55, 52, 169, 1);position: absolute;margin-top:-41px; margin-left: 180px; width: 100px;" onclick="alert('You have subscribed this page.')">Subscribe</span>
+<span class="shootmail"  style=" background-color:rgba(55, 52, 169, 1);position: absolute;margin-top:-41px; margin-left: 180px; width: 100px; outline: none;" onclick="alert('You have subscribed this page.')">Subscribe</span>
 <p>* Will send you weekly updates for your better <br> finance management</p>
-
-
 </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var main = document.getElementById('login_main');
+window.onclick = function(event) {
+  if (event.target == main) {
+    main.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+
 </body>
 </html>
